@@ -10,50 +10,138 @@ body {
 }
 
 .container {
-    background-color: #f0f4f8;
-    width: 400px;
-    height: 600px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 500px;
     align-items: center;
     text-align: center;
     justify-content: center;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1) ;
+    padding-bottom: 80px;
     
     
 }
 
 .title h1 {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bolder;
-    margin: 50px;
+    margin: 30px;
     font-family: 'Segoe UI';
 }
 
 .form {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: left;
+    position: relative;
+    
 }
 
 .form label {
-    font-size: 14px;
-    margin-bottom: 8px;
-    margin-left: 50px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: 30px;
     font-family:Tahoma;
+    color: rgb(85, 85, 85);
+    font-weight: 600;
     
 }
 
 .form input {
-    width: 65%;
-    padding: 12px;
-    margin-left: 50px;
-    border: 0px solid #cccccc;
+    width: 75%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    border: 0px solid #ffffff;
     border-radius: 4px;
     font-size: 16px;
     box-shadow: 0 4px 2px rgba(0,0,0,0.1);
     font-family: 'Segoe UI';
+    
 }
 
 .form input ::placeholder {
-    color: rgb(231, 231, 231);
+    color: rgb(0, 0, 0);
+    margin: 10px
+}
+
+.input-1 input {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png') no-repeat left center;
+    background-size: 20px 20px; /* Adjust the size of the image */
+    opacity: 0.7;
+}
+
+.input-2 input {
+    background: url('https://w7.pngwing.com/pngs/975/821/png-transparent-password-manager-computer-icons-password-strength-password-safe-chang-miscellaneous-password-strength-password-safe-thumbnail.png') no-repeat left center;
+    background-size: 15px 15px; /* Adjust the size of the image */
+    opacity: 0.7;
+}
+
+  
+.forgot-password {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: gray; /* Change this to your preferred color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+  
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.submit-btn {
+    padding: 10px 100px;
+    font-size: 12px;
+    background-color: #007bff; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
     
+  
+
+}
+  
+.submit-btn:hover {
+    background-color: #0056b3; /* Darken on hover */
+}
+
+.alter-signup {
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.other-links img {
+    align-items: center;
+    max-width: 40px;
+    border-radius: 360px;
+    margin: 2px;
+}
+
+.alter-signup2 {
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.bottom a {
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
 }
